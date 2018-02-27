@@ -8,8 +8,8 @@ body {
 
 .main-container {
 	margin: 0 auto;
-	background: #88AD85;
-	font-size: 24px;
+/*	background: #88AD85;
+*/	font-size: 24px;
 	padding: 0 80px;
 }
 
@@ -20,7 +20,7 @@ body {
 
 /* === Parallax CSS === */
 .parallax {
-    min-height: 600px;
+    min-height: 1000px;
     background: transparent;
 }
 /*.parallax {
@@ -71,7 +71,12 @@ body {
 #navbar .navbar li {
 	display: inline-block;
 	font-size: 20px;
-	padding-top: 25px;
+	margin-top: 25px;
+}
+
+#navbar .navbar li:hover {
+	background-color: #88AD85;
+	border-radius: 10px;
 }
 
 #navbar .navbar a {
@@ -104,6 +109,29 @@ body {
 	border-radius: 10px;
 	width: 60%;
 }
+
+#hero .heroText button {
+	background-color: #A573BA;
+	border-radius: 10px;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+#hero .heroText button:hover {
+	background-color: #4778d0;
+	color: white;
+}
+
+#hero .heroText a {
+	color: black;
+	text-decoration: none;
+}
+
+#hero .heroText a:hover {
+	color: lightgray;
+}
+
+
 
 /* === ABOUT SECTION === */
 #about {
@@ -169,6 +197,11 @@ body {
 	background-color: #88AD85;
 	border: none;
 	margin: 15px 0;
+}
+
+#services button:hover {
+	background-color: #A573BA;
+	color: lightgray;
 }
 
 #services .modal-body {
@@ -251,6 +284,14 @@ body {
 
 #accordion .panel-heading {
 	background-color: #A573BA;
+}
+
+#accordion .panel-heading:hover {
+	background-color: #88AD85;
+}
+
+#accordion .panel-heading a:hover {
+	color: black;
 }
 
 #accordion .panel {
@@ -374,7 +415,12 @@ body {
 #footer .navbar li {
 	display: inline-block;
 	font-size: 20px;
-	padding-top: 25px;
+	margin-top: 25px;
+}
+
+#footer .navbar li:hover {
+	background-color: #88AD85;
+	border-radius: 10px;
 }
 
 #footer .navbar a {
